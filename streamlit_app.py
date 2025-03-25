@@ -16,10 +16,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
 import joblib
-import sys
-st.write("Python version:", sys.version)
-st.write("Seaborn version:", sns.__version__)
-st.write("Matplotlib version:", plt.__version__)
+
 
 
 
