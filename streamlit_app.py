@@ -16,6 +16,11 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
 import joblib
+import sys
+st.write("Python version:", sys.version)
+st.write("Seaborn version:", sns.__version__)
+st.write("Matplotlib version:", plt.__version__)
+
 
 
 # Set the title of the app
@@ -94,6 +99,8 @@ st.subheader("📊 Correlation Heatmap")
 fig, ax = plt.subplots(figsize=(10, 8))
 sns.heatmap(df.corr(), annot=True, cmap="coolwarm", ax=ax)
 st.pyplot(fig)  # Pass figure explicitly
+
+
 
 # Histogram of CRIM
 st.write("### Histogram Distribution of CRIM")
