@@ -17,7 +17,4 @@ from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
 import joblib
 
-
-# Set the title of the app
-st.title("🏡 Boston Housing Price Prediction")
-st.write("This app predicts house prices based on various features.")
+st.write("✅ All packages imported successfully!")
